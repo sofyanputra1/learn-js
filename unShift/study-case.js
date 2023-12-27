@@ -1,7 +1,7 @@
 let animal = ["Bebek", "Ayam", "Mentok", "Harimau"];
 
-function AddAnimal() {
-    return animal.unshift("Jerapah", "Gajah");
+function AddAnimal(animalname) {
+    return animal.unshift(animalname);
     }
-    AddAnimal();
+    AddAnimal("Jerapah");
     console.log(animal);
