@@ -1,4 +1,4 @@
-//Menghapus Index Array 
+//Menambahkan Array
 let animal = ["Bebek", "Ayam", "Mentok", "Harimau"];
-animal.splice(2, 1);
+animal.unshift("Kakap", "Kudanil");
 console.log(animal);
